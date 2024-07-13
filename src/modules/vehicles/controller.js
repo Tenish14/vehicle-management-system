@@ -55,7 +55,7 @@ const vehicleController = {
             const index = vehicles.findIndex(v => v.id == vehiclesId);
             if (index !== -1) {
                 vehicles.splice(index, 1);
-                res.status(204).send('Vehicle delete successfully');
+                res.status(201).send('Vehicle delete successfully');
             } else {
                 res.status(404).send('VEHICLE_NOT_FOUND');
             }

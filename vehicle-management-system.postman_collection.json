@@ -48,6 +48,15 @@
 			"request": {
 				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 88520,\n    \"type\": \"Bike\",\n    \"lock_status\": \"Lock\",\n    \"current_speed\": 0,\n    \"battery_level\": 55,\n    \"status\": \"PARKING\",\n    \"location\": \"3.142,012\",\n    \"last_updated\": \"2023-07-02T09:00:00Z\"\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "localhost:3000/vehicles",
 					"host": [
